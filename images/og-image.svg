@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
-  <title id="title">Kfz Gutachter Sillenbuch – SVB Brückers</title>
-  <desc id="desc">Blaue Titelgrafik für die Landingpage gutachter-sillenbuch.de von SVB Brückers.</desc>
+  <title id="title">Kfz Gutachter Sillenbuch – Gutachter Sillenbuch</title>
+  <desc id="desc">Blaue Titelgrafik für die Landingpage gutachter-sillenbuch.de von Gutachter Sillenbuch.</desc>
   <rect width="1200" height="630" fill="#eef6fb"/>
   <circle cx="950" cy="120" r="220" fill="#d7eaf5"/>
   <circle cx="180" cy="560" r="180" fill="#d7eaf5"/>
   <rect x="120" y="145" width="960" height="340" rx="36" fill="#ffffff" stroke="#dfe5ee" stroke-width="4"/>
-  <text x="170" y="255" font-family="Arial, sans-serif" font-size="64" font-weight="700" fill="#1d2433">SVB Brückers</text>
+  <text x="170" y="255" font-family="Arial, sans-serif" font-size="64" font-weight="700" fill="#1d2433">Gutachter Sillenbuch</text>
   <text x="170" y="340" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#174c76">Kfz Gutachter Sillenbuch</text>
   <text x="170" y="405" font-family="Arial, sans-serif" font-size="34" fill="#1d2433">Unfallgutachten in Stuttgart-Heumaden</text>
   <path d="M175 445h250" stroke="#174c76" stroke-width="12" stroke-linecap="round"/>

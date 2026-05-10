@@ -52,7 +52,7 @@ const necessaryCookiesButton = document.querySelector('[data-cookie-necessary]')
 const cookieSettingsButtons = document.querySelectorAll('[data-cookie-settings]');
 const mapConsentButton = document.querySelector('[data-map-consent]');
 const mapContainer = document.querySelector('[data-map-container]');
-const cookieStorageKey = 'svb-brueckers-cookie-consent';
+const cookieStorageKey = 'gutachter-sillenbuch-cookie-consent';
 
 const getConsent = () => localStorage.getItem(cookieStorageKey);
 const setConsent = (value) => localStorage.setItem(cookieStorageKey, value);
