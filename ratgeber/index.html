@@ -1,38 +1,231 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ratgeber Kfz-Gutachten & Unfallhilfe in Stuttgart | SVB Brückers</title>
+  <meta name="description" content="Ratgeber rund um Kfz-Gutachten nach Unfall, fiktive Abrechnung und faire Schadenregulierung – verständlich erklärt für Geschädigte in Stuttgart und Umgebung.">
   <meta name="robots" content="index, follow">
-  <title>Ratgeber | Kfz Gutachter Sillenbuch</title>
-  <meta name="description" content="Kurzer Ratgeber zu ersten Schritten nach einem Kfz-Schaden in Stuttgart-Sillenbuch.">
-  <link rel="canonical" href="https://gutachter-sillenbuch.de/ratgeber/">
+  <link rel="canonical" href="https://svb-brueckers.de/ratgeber/">
   <link rel="stylesheet" href="../css/style.css">
-  <script defer src="../js/main.js"></script>
+  <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
 </head>
 <body>
-  <header class="site-header">
-    <nav class="container nav" aria-label="Hauptnavigation">
-      <a class="brand" href="../index.html">Gutachter Sillenbuch</a>
-      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation">Menü</button>
-      <ul id="primary-navigation" class="nav-links">
-        <li><a href="../index.html">Start</a></li>
-        <li><a href="../faq/index.html">FAQ</a></li>
-        <li><a href="index.html" aria-current="page">Ratgeber</a></li>
-        <li><a href="../impressum.html">Impressum</a></li>
-        <li><a href="../datenschutz.html">Datenschutz</a></li>
-      </ul>
-    </nav>
+  <header class="header" id="top">
+    <div class="container header-inner">
+      <a href="/" class="logo">
+        <img src="../images/svb-brueckers-logo.webp" alt="Logo von SVB Brückers" width="36" height="36" class="logo-img">
+        <span class="logo-text">SVB Brückers</span>
+      </a>
+      <button class="menu-toggle" aria-label="Menü öffnen" onclick="toggleMenu()">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" id="nav">
+        <a href="/#leistungen" onclick="closeMenu()">Leistungen</a>
+        <a href="/#ueber-mich" onclick="closeMenu()">Über mich</a>
+        <a href="/#einzugsgebiet" onclick="closeMenu()">Einzugsgebiet</a>
+        <a href="/#vorteile" onclick="closeMenu()">Vorteile</a>
+        <a href="/#referenzen" onclick="closeMenu()">Referenzen</a>
+        <a href="/faq/" onclick="closeMenu()">FAQ</a>
+        <a href="/ratgeber/" onclick="closeMenu()">Ratgeber</a>
+        <a href="/ratgeber/130-prozent-rechner/" onclick="closeMenu()">Rechner</a>
+        <a href="/#kontakt" onclick="closeMenu()">Kontakt</a>
+      </nav>
+    </div>
   </header>
-  <main class="container page">
-    <h1>Ratgeber nach einem Kfz-Schaden</h1>
-    <ol class="steps">
-      <li><strong>Sicherheit herstellen:</strong> Unfallstelle absichern und bei Bedarf Hilfe rufen.</li>
-      <li><strong>Schaden dokumentieren:</strong> Fotos aus mehreren Perspektiven anfertigen und relevante Daten notieren.</li>
-      <li><strong>Unterlagen sammeln:</strong> Fahrzeugschein, Versicherungsinformationen und vorhandene Korrespondenz bereithalten.</li>
-      <li><strong>Fachliche Einschätzung einholen:</strong> Ein Gutachten kann helfen, Schäden nachvollziehbar zu beziffern.</li>
-    </ol>
+
+  <main class="page-main ratgeber-overview">
+    <section class="section" style="padding: 0;">
+      <div class="container ratgeber-layout">
+        <div class="ratgeber-intro">
+          <h1 class="page-title">Ratgeber: Kfz-Gutachten, Regulierung und klare Hilfe nach dem Unfall</h1>
+          <p class="ratgeber-intro-text">Praxisnahes Wissen für Geschädigte in Stuttgart und Umgebung: verständliche Antworten zu Gutachten, Versicherung und Regulierung – damit Sie nach einem Unfall fundiert entscheiden und finanzielle Nachteile vermeiden.</p>
+        </div>
+
+        <section class="ratgeber-posts" aria-labelledby="ratgeber-posts-title">
+          <h2 id="ratgeber-posts-title" class="ratgeber-posts-title">Aktuelle Beiträge</h2>
+          <div class="article-grid ratgeber-grid" role="list">
+            <a class="article-card ratgeber-card" role="listitem" href="/ratgeber/was-macht-ein-kfz-gutachten-aus/">
+              <div class="article-card-media ratgeber-image-wrapper">
+                <img src="../images/Ratgeberbilder/Kfz_Gutachten_nach_Unfall_Inhalte_und_Nutzen.png" alt="Kfz-Gutachten nach Unfall" loading="lazy" style="--img-pos-desktop:center 45%;--img-pos-mobile:center 42%;" onerror="this.onerror=null;this.src='../images/Ratgeberbilder/Ratgeber_Header.png';">
+              </div>
+              <div class="ratgeber-content">
+              <h3 class="article-card-title">Kfz-Gutachten nach Unfall: Inhalte und Nutzen</h3>
+              <p>Verstehen Sie auf einen Blick, welche Inhalte im Gutachten entscheidend für Ihre vollständige Schadenregulierung sind.</p>
+              <span class="article-card-link ratgeber-button">Mehr erfahren <span aria-hidden="true">&rarr;</span></span>
+              </div>
+            </a>
+            <a class="article-card ratgeber-card" role="listitem" href="/ratgeber/wann-sich-ein-gutachten-lohnt/">
+              <div class="article-card-media ratgeber-image-wrapper">
+                <img src="../images/Ratgeberbilder/Wann_lohnt_sich_ein_Unfallgutachten.png" alt="Wann sich ein Unfallgutachten lohnt" loading="lazy" style="--img-pos-desktop:center 40%;--img-pos-mobile:center 38%;" onerror="this.onerror=null;this.src='../images/Ratgeberbilder/Ratgeber_Header.png';">
+              </div>
+              <div class="ratgeber-content">
+              <h3 class="article-card-title">Wann lohnt sich ein Unfallgutachten</h3>
+              <p>Erfahren Sie schnell, ob ein Gutachten sinnvoller ist als ein Kostenvoranschlag und wann es Ihre Ansprüche absichert.</p>
+              <span class="article-card-link ratgeber-button">Mehr erfahren <span aria-hidden="true">&rarr;</span></span>
+              </div>
+            </a>
+            <a class="article-card ratgeber-card" role="listitem" href="/ratgeber/gutachter-versicherung-unabhaengig/">
+              <div class="article-card-media ratgeber-image-wrapper">
+                <img src="../images/Ratgeberbilder/Versicherungsgutachter_oder_unabhängiger_Gutachter.png" alt="Versicherungsgutachter oder unabhängiger Gutachter" loading="lazy" style="--img-pos-desktop:center 36%;--img-pos-mobile:center 34%;" onerror="this.onerror=null;this.src='../images/Ratgeberbilder/Ratgeber_Header.png';">
+              </div>
+              <div class="ratgeber-content">
+              <h3 class="article-card-title">Versicherungsgutachter oder unabhängiger Gutachter?</h3>
+              <p>Warum ein unabhängiges Gutachten oft der entscheidende Vorteil für eine faire und vollständige Regulierung ist.</p>
+              <span class="article-card-link ratgeber-button">Mehr erfahren <span aria-hidden="true">&rarr;</span></span>
+              </div>
+            </a>
+            <a class="article-card ratgeber-card" role="listitem" href="/ratgeber/fiktive-abrechnung-was-ist-das/">
+              <div class="article-card-media ratgeber-image-wrapper">
+                <img src="../images/Ratgeberbilder/Fiktive_Abrechnung_verständlich_erklärt.png" alt="Fiktive Abrechnung verständlich erklärt" loading="lazy" style="--img-pos-desktop:center 42%;--img-pos-mobile:center 40%;" onerror="this.onerror=null;this.src='../images/Ratgeberbilder/Ratgeber_Header.png';">
+              </div>
+              <div class="ratgeber-content">
+              <h3 class="article-card-title">Fiktive Abrechnung: verständlich erklärt</h3>
+              <p>Die wichtigsten Grundlagen kompakt erklärt, damit Sie schnell entscheiden können, ob eine Auszahlung für Sie passt.</p>
+              <span class="article-card-link ratgeber-button">Mehr erfahren <span aria-hidden="true">&rarr;</span></span>
+              </div>
+            </a>
+            <a class="article-card ratgeber-card" role="listitem" href="/ratgeber/wann-lohnt-sich-fiktive-abrechnung/">
+              <div class="article-card-media ratgeber-image-wrapper">
+                <img src="../images/Ratgeberbilder/Wann_lohnt_sich_die_fiktive_Abrechnung.png" alt="Wann sich die fiktive Abrechnung lohnt" loading="lazy" style="--img-pos-desktop:center 34%;--img-pos-mobile:center 33%;" onerror="this.onerror=null;this.src='../images/Ratgeberbilder/Ratgeber_Header.png';">
+              </div>
+              <div class="ratgeber-content">
+              <h3 class="article-card-title">Wann lohnt sich die fiktive Abrechnung</h3>
+              <p>So erkennen Sie, wann die fiktive Abrechnung finanziell sinnvoll ist und wie Sie typische Fehler vermeiden.</p>
+              <span class="article-card-link ratgeber-button">Mehr erfahren <span aria-hidden="true">&rarr;</span></span>
+              </div>
+            </a>
+            <a class="article-card ratgeber-card" role="listitem" href="/ratgeber/streitpunkte-und-kuerzungsversuche/">
+              <div class="article-card-media ratgeber-image-wrapper">
+                <img src="../images/Ratgeberbilder/Versicherung_kürzt_nach_Unfall_Diese_Streitpunkte_sind_typisch.png" alt="Typische Kürzungen der Versicherung nach Unfall" loading="lazy" style="--img-pos-desktop:center 37%;--img-pos-mobile:center 35%;" onerror="this.onerror=null;this.src='../images/Ratgeberbilder/Ratgeber_Header.png';">
+              </div>
+              <div class="ratgeber-content">
+              <h3 class="article-card-title">Versicherung kürzt nach Unfall? Diese Streitpunkte sind typisch</h3>
+              <p>Typische Kürzungsversuche kurz erklärt, damit Sie Ansprüche gezielt prüfen und begründet widersprechen können.</p>
+              <span class="article-card-link ratgeber-button">Mehr erfahren <span aria-hidden="true">&rarr;</span></span>
+              </div>
+            </a>
+            <a class="article-card ratgeber-card" role="listitem" href="/ratgeber/wildunfall-was-tun/">
+              <div class="article-card-media ratgeber-image-wrapper">
+                <img src="../images/Ratgeberbilder/Wildunfall_Was_tun_nach_dem_Zusammenstoß.png" alt="Was nach einem Wildunfall zu tun ist" loading="lazy" style="--img-pos-desktop:center 42%;--img-pos-mobile:center 40%;" onerror="this.onerror=null;this.src='../images/Ratgeberbilder/Ratgeber_Header.png';">
+              </div>
+              <div class="ratgeber-content">
+              <h3 class="article-card-title">Wildunfall: Was tun nach dem Zusammenstoß?</h3>
+              <p>Diese Schritte helfen direkt nach dem Wildunfall, damit Dokumentation und Regulierung ohne unnötige Probleme laufen.</p>
+              <span class="article-card-link ratgeber-button">Mehr erfahren <span aria-hidden="true">&rarr;</span></span>
+              </div>
+            </a>
+            <a class="article-card ratgeber-card" role="listitem" href="/ratgeber/kfz-gutachten-leasingrueckgabe/">
+              <div class="article-card-media ratgeber-image-wrapper">
+                <img src="../images/Ratgeberbilder/Kfz-Gutachten_vor_Leasingrückgabe.png" alt="Kfz-Gutachten vor Leasingrückgabe" loading="lazy" style="--img-pos-desktop:center 40%;--img-pos-mobile:center 38%;" onerror="this.onerror=null;this.src='../images/Ratgeberbilder/Ratgeber_Header.png';">
+              </div>
+              <div class="ratgeber-content">
+              <h3 class="article-card-title">Kfz-Gutachten vor Leasingrückgabe</h3>
+              <p>Sichern Sie sich vor der Rückgabe ab und vermeiden Sie unklare Nachforderungen mit einer unabhängigen Bewertung.</p>
+              <span class="article-card-link ratgeber-button">Mehr erfahren <span aria-hidden="true">&rarr;</span></span>
+              </div>
+            </a>
+            <a class="article-card ratgeber-card" role="listitem" href="/ratgeber/dauer-gutachten-auszahlung/">
+              <div class="article-card-media ratgeber-image-wrapper">
+                <img src="../images/Ratgeberbilder/Wie_lange_dauert_ein_Gutachten.png" alt="Dauer von Gutachten und Auszahlung" loading="lazy" style="--img-pos-desktop:center 45%;--img-pos-mobile:center 42%;" onerror="this.onerror=null;this.src='../images/Ratgeberbilder/Ratgeber_Header.png';">
+              </div>
+              <div class="ratgeber-content">
+              <h3 class="article-card-title">Wie lange dauert ein Gutachten</h3>
+              <p>Ein realistischer Zeitplan zeigt Ihnen, wann Gutachten und Auszahlung typischerweise abgeschlossen sind.</p>
+              <span class="article-card-link ratgeber-button">Mehr erfahren <span aria-hidden="true">&rarr;</span></span>
+              </div>
+            </a>
+            <a class="article-card ratgeber-card" role="listitem" href="/ratgeber/totalschaden-bedeutung-auszahlung/">
+              <div class="article-card-media ratgeber-image-wrapper">
+                <img src="../images/Ratgeberbilder/Totalschaden_–_was_bedeutet_das.png" alt="Totalschaden Bedeutung und Auszahlung" loading="lazy" style="--img-pos-desktop:center 44%;--img-pos-mobile:center 41%;" onerror="this.onerror=null;this.src='../images/Ratgeberbilder/Ratgeber_Header.png';">
+              </div>
+              <div class="ratgeber-content">
+              <h3 class="article-card-title">Totalschaden – was bedeutet das</h3>
+              <p>Verstehen Sie schnell die Berechnung beim Totalschaden und welche Auszahlung Ihnen dabei tatsächlich zusteht.</p>
+              <span class="article-card-link ratgeber-button">Mehr erfahren <span aria-hidden="true">&rarr;</span></span>
+              </div>
+            </a>
+            <a class="article-card ratgeber-card" role="listitem" href="/ratgeber/bagatellschaden-definition/">
+              <div class="article-card-media ratgeber-image-wrapper">
+                <img src="../images/Ratgeberbilder/Bagatellschaden_einfach_erklärt.png" alt="Bagatellschaden einfach erklärt" loading="lazy" style="--img-pos-desktop:center 41%;--img-pos-mobile:center 39%;" onerror="this.onerror=null;this.src='../images/Ratgeberbilder/Ratgeber_Header.png';">
+              </div>
+              <div class="ratgeber-content">
+              <h3 class="article-card-title">Bagatellschaden einfach erklärt</h3>
+              <p>Ab wann ein Schaden als Bagatellschaden gilt und wann ein Gutachten dennoch wirtschaftlich sinnvoll sein kann.</p>
+              <span class="article-card-link ratgeber-button">Mehr erfahren <span aria-hidden="true">&rarr;</span></span>
+              </div>
+            </a>
+            <a class="article-card ratgeber-card" role="listitem" href="/ratgeber/teilschuld-lohnt-sich-gutachten/">
+              <div class="article-card-media ratgeber-image-wrapper">
+                <img src="../images/Ratgeberbilder/Teilschuld.png" alt="Teilschuld – lohnt sich trotzdem ein Gutachten" loading="lazy" style="--img-pos-desktop:center;--img-pos-mobile:center;--ratgeber-image-shift-desktop:0px;--ratgeber-image-shift-mobile:0px;" onerror="this.onerror=null;this.src='../images/Ratgeberbilder/Ratgeber_Header.png';">
+              </div>
+              <div class="ratgeber-content">
+              <h3 class="article-card-title">Teilschuld – lohnt sich trotzdem ein Gutachten?</h3>
+              <p>Warum ein Gutachten bei Teilschuld vor allem die Schadenhöhe als Grundlage der anteiligen Regulierung sauber festlegt.</p>
+              <span class="article-card-link ratgeber-button">Mehr erfahren <span aria-hidden="true">&rarr;</span></span>
+              </div>
+            </a>
+            <a class="article-card ratgeber-card" role="listitem" href="/ratgeber/wertminderung-nach-unfall/">
+              <div class="article-card-media ratgeber-image-wrapper">
+                <img src="../images/Ratgeberbilder/Wertminderung.png" alt="Wertminderung nach Unfall" loading="lazy" style="--img-pos-desktop:center;--img-pos-mobile:center;--ratgeber-image-shift-desktop:0px;--ratgeber-image-shift-mobile:0px;" onerror="this.onerror=null;this.src='../images/Ratgeberbilder/Ratgeber_Header.png';">
+              </div>
+              <div class="ratgeber-content">
+              <h3 class="article-card-title">Wertminderung nach Unfall</h3>
+              <p>Auch nach fachgerechter Reparatur kann Ihr Fahrzeug an Marktwert verlieren. Erfahren Sie, wann Ihnen Wertminderung zusteht und wie ich sie im Gutachten berücksichtige.</p>
+              <span class="article-card-link ratgeber-button">Mehr erfahren <span aria-hidden="true">&rarr;</span></span>
+              </div>
+            </a>
+            <a class="article-card ratgeber-card" role="listitem" href="/ratgeber/glossar-kfz-gutachten-begriffe/">
+              <div class="article-card-media ratgeber-image-wrapper">
+                <img src="../images/Ratgeberbilder/Fachchinesisch_Hier_das_Glossar.png" alt="Glossar für Kfz-Gutachten Begriffe" loading="lazy" style="--img-pos-desktop:center 43%;--img-pos-mobile:center 40%;" onerror="this.onerror=null;this.src='../images/Ratgeberbilder/Ratgeber_Header.png';">
+              </div>
+              <div class="ratgeber-content">
+              <h3 class="article-card-title">Fachchinesisch? Hier das Glossar</h3>
+              <p>Wichtige Fachbegriffe aus Gutachten und Regulierung kurz erklärt, damit Sie jedes Schreiben sicher einordnen können.</p>
+              <span class="article-card-link ratgeber-button">Mehr erfahren <span aria-hidden="true">&rarr;</span></span>
+              </div>
+            </a>
+            <a class="article-card ratgeber-card" role="listitem" href="/ratgeber/130-prozent-rechner/">
+              <div class="article-card-media ratgeber-image-wrapper">
+                <img src="../images/Ratgeberbilder/Kostenrechner.png" alt="Rechner: Was zahlt die Versicherung?" loading="lazy" style="--img-pos-desktop:center;--img-pos-mobile:center;--ratgeber-image-shift-desktop:0px;--ratgeber-image-shift-mobile:0px;" onerror="this.onerror=null;this.src='../images/Ratgeberbilder/Ratgeber_Header.png';">
+              </div>
+              <div class="ratgeber-content">
+              <h3 class="article-card-title">Rechner: Was zahlt die Versicherung?</h3>
+              <p>Prüfen Sie schnell und verständlich, ob sich eine Reparatur in Ihrem Fall wirtschaftlich lohnt – inklusive 130%-Einordnung.</p>
+              <span class="article-card-link ratgeber-button">Zum Rechner <span aria-hidden="true">&rarr;</span></span>
+              </div>
+            </a>
+          </div>
+        </section>
+      </div>
+    </section>
   </main>
-  <footer class="site-footer"><div class="container footer-links"><span>&copy; <span data-year></span> Gutachter Sillenbuch</span><a href="../impressum.html">Impressum</a><a href="../datenschutz.html">Datenschutz</a></div></footer>
+
+  <footer class="footer footer--article">
+    <div class="container footer-inner footer-inner--article">
+      <div class="footer-brand-wrap">
+        <div class="footer-brand">
+          <img src="../images/svb-brueckers-logo.webp" alt="Logo von SVB Brückers" width="36" height="36" class="logo-img">
+          <span class="logo-text">SVB Brückers</span>
+        </div>
+        <p class="footer-trust">Unabhängige Kfz-Gutachten im Raum Stuttgart – schnell, transparent und verlässlich.</p>
+      </div>
+      <nav class="footer-links footer-links--primary" aria-label="Schnellzugriff">
+        <a href="/">Startseite</a>
+        <a href="/ratgeber/">Ratgeber</a>
+        <a href="/ratgeber/130-prozent-rechner/">Rechner</a>
+        <a href="/#kontakt">Kontakt</a>
+        <a href="tel:+491759415528">Telefon</a>
+      </nav>
+      <nav class="footer-links footer-links--legal" aria-label="Rechtliches">
+        <a href="/impressum.html">Impressum</a>
+        <a href="/datenschutz.html">Datenschutz</a>
+        <button type="button" class="footer-settings-link" data-open-cookie-settings>Cookie-Einstellungen</button>
+      </nav>
+      <p class="footer-copy">&copy; 2026 Ingenieurbüro Brückers. Alle Rechte vorbehalten.</p>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
 </body>
 </html>
